@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset= "utf-8">
+    <meta name = "viewport" content = "width=device-width", initial-scale="1">
+    <link rel ="stylesheet" href="bootstrap.css">
+    <link rel ="stylesheet" href="style.css">
+    <title> Princeton in Asia </title>
+  </head>
+
+  <!-- Code from Jeff's Responsive UI Bootstrap Video unless otherwise cited-->
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark  bg-dark">
+       <div class ="container-fluid">
+          <!-- Logo taken from existing PiA website-->
+          <img src="images/pia_logo.png" alt="Home" id="logo-image">
+          <a class="navbar-brand" href="#">Princeton in Asia</a>
+          
+        <!-- Sidenav + Hamburger Icon: Code from MDBootstrap: https://mdbootstrap.com/docs/standard/extended/hamburger-menu/, 
+          COULD NOT GET THIS TO WORK
+          <nav id="sidenav-1" class="sidenav" data-mdb-hidden="false">
+            <ul class="sidenav-menu">
+              <li class="sidenav-item">
+                <a class="sidenav-link">
+                  <i class="far fa-smile fa-fw me-3"></i><span>Link 1</span></a>
+              </li>
+              <li class="sidenav-item">
+                <a class="sidenav-link"><i class="fas fa-grin fa-fw me-3"></i><span>Category 1</span></a>
+                <ul class="sidenav-collapse show">
+                  <li class="sidenav-item">
+                    <a class="sidenav-link">Link 2</a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a class="sidenav-link">Link 3</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidenav-item">
+                <a class="sidenav-link"><i class="fas fa-grin-wink fa-fw me-3"></i><span>Category
+                    2</span></a>
+                <ul class="sidenav-collapse">
+                  <li class="sidenav-item">
+                    <a class="sidenav-link">Link 4</a>
+                  </li>
+                  <li class="sidenav-item">
+                    <a class="sidenav-link">Link 5</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          Sidenav
+
+          Toggler
+          <button data-mdb-toggle="sidenav" data-mdb-target="#sidenav-1" class="btn btn-primary"
+            aria-controls="#sidenav-1" aria-haspopup="true">
+            <i class="fas fa-bars"></i>
+          </button>
+          Toggler 
+        -->            
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto" role="navigation">
+              <li class="navbar-item"><a class = "nav-link">About</a></li>
+              <li class="navbar-item"><a class = "nav-link">For Fellows</a></li>
+                  <!-- this was an attempt at a dropdown menu... it failed
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">For Fellows
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Connect</a>
+                      </li>
+                      <li>
+                        <a href="#">Resources</a>
+                      </li>
+                      <li>
+                        <a href="#">Storytelling</a>
+                      </li>
+                  </ul>
+                -->
+                </li>
+              <li class="navbar-item"><a class = "nav-link">For Partners</a></li>
+              <li class="navbar-item"><a class = "nav-link">For Applicants</a></li>
+              <li class="navbar-item"><a class = "nav-link">Contact Us</a></li>
+            </ul>
+          </div>
+        </div> 
+    </nav> 
+
+
+    <div class="d-flex flex-column text-center" id="who-are-we">
+      <img src="images/chinalandscapesbanner.jpeg" alt="picture of Chinese landscape">
+      <h1>Who Are We?</h1>
+      <p>For over a century, Princeton in Asia (PiA) has been fostering mutual appreciation and cross-cultural understanding between the United States and Asia through immersive work fellowships in host organizations and communities. We work with host organizations in the fields of arts and culture, education, economic development, environmental sustainability, public health, sports, STEM, and peace, justice and access to information. We are invested in developing long-term partnerships with host organizations.
+      </p>
+      <a href="#install" class="btn text-dark btn-lg">Learn More</a>
+      
+    </div>
+
+    <div class="container-fluid text-center">
+      <h2>Fellowship Applications Are Open</h2>
+      <p>
+        Please use <u>this link</u> to find our online application form.
+        Applications are due by 3:00pm EST on <b>Tuesday, November 1, 2022.</b> 
+        Before beginning your application, please download and review the 2023-24 PiA Application Guide. It contains important information about our program, instructions for completing the application form, a checklist for application materials, and a timeline for the application process.
+        
+        </p>
+      <a href="#install" class="btn text-dark btn-lg">Apply Now</a>
+    </div>
+  
+    <div id="stories" class="">
+      <h4>Read Fellow Stories</h4>
+      <div class="container">
+        <div class ="row">
+          <div class="col-3 col-med-2 col-lg-2">
+            <img class="media" src="images/Patrick_Dowd.jpeg"> <!--Photo from PiA Website-->
+            <h6>Alum of the Fortnight: Patrick Dowd</h6>
+            <a href="#install" class="btn text-dark btn-lg">Read More</a>
+          </div>
+
+          <div class="col-3 col-med-2 col-lg-2"> 
+            <img class="media" src="images/Michelle_Laws.png"> <!--Photo from PiA Website-->
+            <h6>Fellow of the Fortnight: Michelle Laws</h6>
+            <a href="#install" class="btn text-dark btn-lg">Read More</a>
+          </div>
+
+          <div class="col-3 col-med-2 col-lg-2">
+            <img class="media" src="">
+            <h6>PiA in the News</h6>
+            <a href="#install" class="btn text-dark btn-lg">Read More</a>
+           </div>
+
+        </div>
+      </div>  
+    </div>
+  </body>
+
+</html>
